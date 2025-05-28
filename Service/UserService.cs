@@ -39,6 +39,5 @@ namespace blackfy_API.Services
 
             return result > 0;
         }
-
     }
 }
