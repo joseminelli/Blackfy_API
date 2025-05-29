@@ -1,0 +1,6 @@
+CREATE TABLE Users (
+    Id SERIAL PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Email TEXT NOT NULL,
+    Phone TEXT NOT NULL
+);
