@@ -30,5 +30,19 @@ namespace blackfy_API.Controllers
 
             return result ? Ok("User criado!") : StatusCode(500, "Erro ao criar User...");
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await userService.DeleteUserById(id);
+            return result ? Ok("User deletado!") : StatusCode(500, "Erro ao deletar User");
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(User user, int id)
+        {
+            var result = await userService.UpdateUser(user, id);
+            return result ? Ok("User alterado!") : StatusCode(500, "Erro ao atualizar User");
+        }
     }
 }
