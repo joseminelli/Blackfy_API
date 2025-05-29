@@ -8,8 +8,7 @@ API desenvolvida em **ASP.NET Core**, com foco em rotas organizadas e conexão d
 
 * **PostgreSQL**: banco de dados relacional ideal para garantir integridade e desempenho
 * **Dapper**: micro-ORM que facilita o mapeamento entre objetos C# e o banco, mantendo controle total sobre as queries
-* **ASP.NET Core**: framework moderno e eficiente, perfeito para construir APIs rápidas e seguras
-* **Swagger**: utilizado para documentar e testar a API de forma simples e prática durante o desenvolvimento
+* **Swagger**: utilizado para testar a API de forma simples e prática durante o desenvolvimento
 ---
 
 ## 🚀 Como executar o projeto localmente
